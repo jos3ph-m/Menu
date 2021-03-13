@@ -1,7 +1,7 @@
 import React from 'react';
 
-const Menu = () => {
-  return <h2>menu component</h2>;
+const Menu = ({ items }) => {
+  return <div className="section-center">{items.map()}</div>;
 };
 
 export default Menu;

@@ -13,7 +13,7 @@ function App() {
           <h2>our menu</h2>
           <div className="underline"></div>
           <Categories />
-          <Menu />
+          <Menu items={menuItems} />
         </div>
       </section>
     </main>
